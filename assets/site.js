@@ -1,3 +1,5 @@
+// ヘッダーの高さを段取りバーの位置に使う（2026-10-16）
+(function(){var h=document.querySelector('.site-header');if(!h)return;function f(){document.documentElement.style.setProperty('--hh',h.offsetHeight+'px')}f();addEventListener('resize',f)})();
 // メニューの開閉（スマホ）
 (function(){var b=document.querySelector('.nav-toggle'),n=document.querySelector('.gnav');if(!b||!n)return;
 b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false')});

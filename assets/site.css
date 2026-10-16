@@ -350,6 +350,16 @@ figure.zu .cr{display:block;font-size:11px;color:var(--sub)}
 .eb-p{margin-top:14px;font-size:16px}
 .eb-katachi{margin:6px 0 4px 1.2em;font-size:14.5px;line-height:1.9;color:var(--sub)}
 @media print{.eb-star{display:none}.eb-card{break-inside:avoid}}
+/* 学習問題のページのガイダンス 2026-10-16 */
+.eb-guide{padding-top:28px!important;padding-bottom:0!important}
+.eb-gbox{border:3px solid var(--accent);background:var(--accent-wash);padding:20px 22px}
+.eb-gh2{font-weight:900;font-size:22px;color:var(--accent)}
+.eb-gl{font-size:16.5px;line-height:1.9;margin-top:4px}
+.eb-gsteps{list-style:none;padding:0;margin:14px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.eb-gsteps a{display:flex;flex-direction:column;gap:2px;background:#fff;border:1px solid var(--rule);padding:10px 12px;text-decoration:none;color:var(--black)}
+.eb-gsteps b{font-size:18px;color:var(--accent)}
+.eb-gsteps span{font-size:14px;color:var(--sub)}
+.eb-slides{display:inline-block;margin-top:14px;font-weight:700;font-size:16px;background:var(--accent);color:#fff;padding:10px 18px;text-decoration:none}
 /*NOSCALE*/
 @media(max-width:640px){
   .hero-en{display:none}
@@ -415,3 +425,32 @@ figure.zu .cr{display:block;font-size:11px;color:var(--sub)}
 /* ---- 資料番号（教科書と同じ、ア・イ・ウ）---- */
 .sl{display:inline-block;background:var(--accent);color:#fff;font-weight:700;font-size:13px;line-height:1;padding:5px 7px;border-radius:3px;margin-right:8px;vertical-align:2px;letter-spacing:0}
 h3.sub .sl{vertical-align:3px}
+
+/* ==== 4年生向けの決まり 2026-10-16（調査の7章 1〜6） ==== */
+/* 1 灰色の字をやめる・ふりがなは本文と同じ色 */
+:root{--sub:#595c58}
+ruby rt{color:inherit!important;font-size:.5em!important}
+.toi-list .hint,.note,.eb-glead,.eb-katachi,.tb-sub,.band-copy .sm,.memo-f .mh,.memo-h span,.kk-note,.eb-nolink,
+.eb-gsteps span,.nb-lesson .nb-q,.eb-kind,.nen-key,.stepnav a .d,.eb-gn,.lcard p{color:var(--ink)!important}
+/* 2 小さい字をなくす（子どもが読む字は16px以上、本文は18px） */
+.tbl table,.checks label,.eb-desc,.eb-dl,.eb-links li,.now-guide,.go-next,.memo-f .mt,ol.nenpyo li,.notekata ol,
+.eb-katachi,.eb-ask,.eb-glead,.eb-meta,.toi-main .lab,.notekata .nk-h{font-size:18px!important}
+.stepnav a .t,.stepnav a .d,.memo-h span,.memo-f .mh,.eb-kind,.kk-note,.memo-foot,.eb-nolink,.nb-lesson .nb-q,.eb-gn,
+.eb-star,.eb-gsteps span,.nen-key,.fusen .ft,.now-guide .ng-lab,.go-next span,.today-box .tb-l,.today-box .tb-s,
+.stepnav .sn-lab,.sl,.lcard .no,.lcard .no .d,figure.zu figcaption,.nav-toggle,.head-dl,.brand small,.saved,
+.toi-list .hint::before,.links p::before,.gnav a{font-size:16px!important}
+.stepnav a .n{font-size:14px!important}
+.fusen .ft{color:#5e5320!important}
+.fusen-wrap{min-width:0;max-width:100%}.fusen-body{overflow-wrap:anywhere}
+.now-guide{display:block!important}.now-guide .ng-lab{display:inline-block;margin-right:10px}
+@media(max-width:560px){.brand small{display:none!important}.brand{min-width:0}.brand-main{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+/* 3 最初の画面に題を出す（幅1080px以下で写真が題の上に来ないように） */
+@media(max-width:1080px){.hero-art{order:0!important;min-height:0!important}
+ .hero-art img{max-height:38vh;object-fit:cover}
+ .hero-art.photo img{height:26vh;aspect-ratio:auto!important;width:100%}}
+.stepnav{top:var(--hh,60px)!important}
+/* 4 1行を短くする（本文18pxで約34字） */
+.hero .lede,section.block p,section.block .warn,section.block .note,.now-guide,.toi-list .hint{max-width:34em}
+/* 6 英字の飾りをやめる */
+.eyebrow,.hero-en,h3.sub .en,.next-nav .lbl,.nextq .en,.matome-card .mc-label,.band-copy .bc-label,.lcard .en,
+.links .w,.eb-links .w,.sec-head .eyebrow{display:none!important}
