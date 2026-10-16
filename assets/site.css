@@ -454,3 +454,25 @@ ruby rt{color:inherit!important;font-size:.5em!important}
 /* 6 英字の飾りをやめる */
 .eyebrow,.hero-en,h3.sub .en,.next-nav .lbl,.nextq .en,.matome-card .mc-label,.band-copy .bc-label,.lcard .en,
 .links .w,.eb-links .w,.sec-head .eyebrow{display:none!important}
+/* 学習問題のページ 写真カードとノートのお手本 2026-10-16 */
+.eb-card{padding:0!important;overflow:hidden}
+.eb-cb{position:relative;padding:14px 18px 18px;display:flex;flex-direction:column;gap:6px}
+.eb-th{margin:0;background:#eef1f3}
+.eb-th img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.eb-th .cr{display:block;font-size:11px;color:var(--sub);padding:3px 8px;line-height:1.5}
+.eb-th .cr a{color:var(--sub)}
+.eb-noimg{aspect-ratio:16/9;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;background:var(--accent-wash)}
+.eb-noimg span{font-size:22px;font-weight:900;color:var(--accent)}
+.eb-noimg small{font-size:15px;color:var(--ink)}
+.eb-gbtns{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.eb-gbtns .eb-slides{margin-top:0}
+.eb-slides.eb-sub{background:#fff;color:var(--accent);border:2px solid var(--accent)}
+.eb-megane{list-style:none;padding:0;margin:14px 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.eb-megane li{border:3px solid var(--accent);border-radius:999px;padding:12px 18px;text-align:center;background:#fff}
+.eb-megane b{display:block;font-size:20px;color:var(--accent)}
+.eb-megane span{font-size:17px}
+.eb-model{margin:18px 0 8px;border:1px solid var(--line);background:#f4f1ea;padding:8px}
+.eb-model img{display:block;width:100%;height:auto}
+.eb-model figcaption{font-size:16px;margin-top:6px}
+.eb-tips{margin:8px 0 0 1.3em;font-size:18px;line-height:2}
+.eb-katachi2{margin:6px 0 0 1.3em;font-size:18px;line-height:2}
