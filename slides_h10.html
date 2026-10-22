@@ -224,19 +224,66 @@ body{font-family:"Noto Sans JP","Hiragino Sans","BIZ UDPGothic",sans-serif;color
 .steps.five .mn{font-size:2.1cqw}
 .steps.five .d{font-size:2cqw}
 /* 予想から 調べることへ */
-.tk{display:flex;flex-direction:column;gap:2.2cqw;flex:1;min-height:0;justify-content:center}
+.tk{display:flex;flex-direction:column;gap:1.8cqw;flex:1;min-height:0;justify-content:center}
 .tk .th,.tk .tr{display:grid;grid-template-columns:minmax(0,1fr) 6cqw minmax(0,1fr);gap:1.4cqw;align-items:stretch}
 .tk .th span{font-size:2.3cqw;font-weight:900;color:#595c58}
-.tk .y,.tk .s{position:relative;padding:1.6cqw 2.2cqw;display:flex;align-items:center;min-height:11cqw}
+.tk .y,.tk .s{position:relative;padding:1.3cqw 2.2cqw;display:flex;align-items:center;min-height:8.6cqw}
 .tk .y-b{background:#cfe0ee;box-shadow:.4cqw .6cqw 0 rgba(0,0,0,.12)}
 .tk .y-w{background:#fff;border:.35cqw dashed #9aa3a8}
 .tk .s{background:#fff;border:.4cqw solid #2e5d7d}
 .tk .s.q{justify-content:center;border-style:dashed;border-color:#9aa3a8}
-.tk .y p,.tk .s p{font-size:3cqw;font-weight:900;line-height:1.5}
-.tk .s.q p{font-size:5cqw;color:#9aa3a8}
+.tk .y p,.tk .s p{font-size:2.8cqw;font-weight:900;line-height:1.5}
+.tk .s.q p{font-size:4.4cqw;color:#9aa3a8}
 .tk .y-w p{color:#595c58}
 .tk .ar{display:flex;align-items:center;justify-content:center;font-size:5cqw;font-weight:900;color:#2e5d7d}
 .tk .ex{position:absolute;top:-1.5cqw;left:1.2cqw;font-size:1.9cqw;font-weight:900;background:#b5532f;color:#fff;padding:.1cqw 1.1cqw;line-height:1.5}
+/* 年表の下の問い（第3時） */
+.tl.q3{margin-top:1.2cqw}
+.tl.q3 .y{white-space:nowrap;font-size:3.3cqw}
+.tl.q3 .t{font-size:2.7cqw;line-height:1.45}
+.k-timeline p.ask{margin-top:-1cqw;font-size:4cqw;font-weight:900;color:#b5532f;border:.5cqw solid #b5532f;align-self:flex-start;padding:.6cqw 2.4cqw;border-radius:99cqw}
+/* 表紙と学習問題（第3時） */
+.k-cover_mondai{flex-direction:row;align-items:center;gap:3cqw;background:#e7eef2}
+.k-cover_mondai .tx{flex:1;min-width:0;display:flex;flex-direction:column;gap:1.4cqw}
+.k-cover_mondai .eb{font-size:2.6cqw;font-weight:700;color:#2e5d7d;letter-spacing:.2em}
+.k-cover_mondai .tag{align-self:flex-start;font-size:2.8cqw;font-weight:900;background:#2e5d7d;color:#fff;padding:.4cqw 1.6cqw}
+.k-cover_mondai .cm{border:.6cqw solid #b5532f;background:#fff;padding:1.2cqw 2cqw 1.6cqw;display:flex;flex-direction:column;margin-top:1cqw}
+.k-cover_mondai .cm .lb{font-size:1.9cqw;font-weight:900;color:#b5532f;letter-spacing:.1em;line-height:1.5}
+.k-cover_mondai .cm .ln{font-size:3.3cqw;font-weight:900;line-height:1.75;white-space:nowrap}
+.k-cover_mondai .cm rt{font-size:.42em}
+.k-cover_mondai .im{flex:0 0 27cqw;display:flex;flex-direction:column;gap:.4cqw}
+.k-cover_mondai .im img{width:100%;height:auto;display:block;border-radius:.8cqw}
+.k-cover_mondai .cr{font-size:1.1cqw;color:#595c58;text-align:right}
+/* めあて */
+.k-meate{justify-content:center;align-items:center}
+.mt{border:.7cqw solid #2e5d7d;padding:2.6cqw 5cqw 3.2cqw;display:flex;flex-direction:column;gap:.6cqw;position:relative}
+.mt .lb{position:absolute;top:-2.4cqw;left:3cqw;font-size:2.6cqw;font-weight:900;background:#2e5d7d;color:#fff;padding:.2cqw 1.8cqw}
+.mt .ln{font-size:5.6cqw;font-weight:900;line-height:1.6;white-space:nowrap}
+.mt rt{font-size:.4em}
+/* 予想を立てよう（2つの問い） */
+.ys{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2.6cqw;flex:1;min-height:0}
+.ys .c{padding:1.6cqw 2.2cqw;display:flex;flex-direction:column;gap:1cqw;border-radius:.6cqw}
+.ys .c1{background:#fff8d6;border:.5cqw solid #b8a23a}
+.ys .c2{background:#fbe6ee;border:.5cqw solid #c0577e}
+.ys .lab{align-self:flex-start;font-size:2.4cqw;font-weight:900;color:#fff;background:#8a7a1c;padding:.1cqw 1.4cqw}
+.ys .c2 .lab{background:#a8436b}
+.ys .q{font-size:3cqw;font-weight:900;line-height:1.5}
+.ys .fm{margin-top:auto;font-size:2.6cqw;font-weight:700;line-height:1.6;background:#fff;border:.25cqw dashed #9aa3a8;padding:.8cqw 1.4cqw}
+.k-yoso2 .foot{margin-top:.4cqw}
+/* ふり返りと次の時間 */
+.k-tsugi{flex-direction:row;align-items:center;gap:4cqw;background:#e7eef2}
+.k-tsugi .tx{flex:1;min-width:0;display:flex;flex-direction:column;gap:1.6cqw}
+.k-tsugi h2{border:none;padding:0;font-size:5cqw}
+.k-tsugi .fb{background:#fff;border-left:1cqw solid #2e5d7d;padding:1.2cqw 2cqw}
+.k-tsugi .fb .lab{font-size:2.2cqw;font-weight:900;color:#2e5d7d}
+.k-tsugi .fb p{font-size:3cqw;font-weight:900;line-height:1.5}
+.k-tsugi .nx{font-size:3cqw;font-weight:900;display:flex;gap:1.6cqw;align-items:baseline;flex-wrap:wrap}
+.k-tsugi .nx b{font-size:2.4cqw;background:#b5532f;color:#fff;padding:.1cqw 1.2cqw}
+.k-tsugi .hm{font-size:2.2cqw;font-weight:700;color:#595c58}
+.k-tsugi .go{align-self:flex-start;font-size:2.2cqw;font-weight:900;background:#2e5d7d;color:#fff;text-decoration:none;padding:.8cqw 2cqw}
+.k-tsugi .url{font-size:1.4cqw;color:#595c58;word-break:break-all}
+.k-tsugi .qr{width:22cqw;background:#fff;padding:1.2cqw}
+.k-tsugi .qr svg{width:100%;height:auto;display:block}
 /* 人のチップ */
 .c2w{display:flex;flex-wrap:wrap;gap:1.6cqw;align-content:center;justify-content:center;flex:1}
 .c2w .chip{font-size:3.4cqw;padding:.6cqw 2.4cqw}
