@@ -476,3 +476,16 @@ ruby rt{color:inherit!important;font-size:.5em!important}
 .eb-model figcaption{font-size:16px;margin-top:6px}
 .eb-tips{margin:8px 0 0 1.3em;font-size:18px;line-height:2}
 .eb-katachi2{margin:6px 0 0 1.3em;font-size:18px;line-height:2}
+/* 第3版 2026-10-20：書きこむ欄をやめたので、サイト内のページへの案内・ノートに書くこと・聞き取りの問い */
+.sitelinks{margin:6px 0 22px;border:2px solid var(--accent);background:#fff;padding:14px 18px}
+.sitelinks .sl-h{font-weight:900;color:var(--accent);font-size:18px;margin-bottom:4px}
+.sitelinks ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.sitelinks a{font-size:18px;font-weight:700;color:var(--accent)}
+.nb-lesson h3{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
+.nb-lesson .nb-d{font-size:16px;font-weight:400;color:var(--ink)}
+.nb-kata{margin:8px 0 6px 1.4em;font-size:18px;line-height:1.9}
+.kk-qs{margin:22px 0 10px 1.4em;font-size:18px;line-height:1.8}
+.kk-qs li{margin-bottom:14px}
+.kk-qs b{display:block}
+.kk-qs span{display:block;font-size:16px}
+.kk-rules{margin:6px 0 0 1.3em;font-size:18px;line-height:1.9}

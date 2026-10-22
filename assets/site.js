@@ -10,7 +10,7 @@ var cur=null;function set(id){if(cur===id)return;cur=id;links.forEach(function(a
 var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)set(e.target.id)})},{rootMargin:'-28% 0px -62% 0px',threshold:0});
 links.forEach(function(a){var el=document.getElementById(a.dataset.step);if(el)io.observe(el)});})();
 // トップ：きょうの時間を光らせる（日付の表から）
-(function(){var box=document.getElementById('today');if(!box)return;var DATES=["10/6（火）4校時", "10/9（金）4校時", "10/16（金）2校時", "10/20（火）4校時", "10/23（金）2校時", "10/26（月）2校時", "10/27（火）4校時", "10/30（金）2校時", "11/2（月）2校時", "11/6（金）2校時"];var d=new Date();var key=(d.getMonth()+1)+'/'+d.getDate();
+(function(){var box=document.getElementById('today');if(!box)return;var DATES=["10/16（金）2校時", "10/20（火）4校時", "10/23（金）2校時", "10/26（月）2校時", "10/27（火）4校時", "10/30（金）2校時", "11/2（月）2校時", "11/6（金）2校時", "11/9（月）2校時", "11/10（火）4校時"];var d=new Date();var key=(d.getMonth()+1)+'/'+d.getDate();
 for(var i=0;i<DATES.length;i++){if(DATES[i].indexOf(key+'（')===0){var a=document.getElementById('today-link');a.textContent='第'+(i+1)+'時　'+DATES[i];a.href='h'+String(i+1).padStart(2,'0')+'.html';box.hidden=false;
 var c=document.querySelectorAll('.lcard')[i];if(c)c.classList.add('today');break}}})();
 // 付箋：タップではがす

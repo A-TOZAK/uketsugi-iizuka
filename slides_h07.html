@@ -1,0 +1,255 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>第7時 祭りを支える人とくふう スライド｜受けつがれてきたもの 飯塚</title><meta name="robots" content="noindex"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Oswald:wght@400;500&display=swap" rel="stylesheet"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+.sl{word-break:keep-all}
+html,body{height:100%;background:#1d2327}
+body{font-family:"Noto Sans JP","Hiragino Sans","BIZ UDPGothic",sans-serif;color:#161816;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.stage{position:relative;width:min(100vw,calc((100vh - 56px) * 16 / 9));aspect-ratio:16/9;background:#fff;container-type:inline-size;overflow:hidden}
+.sl{position:absolute;inset:0;padding:5cqw 6cqw 4.5cqw;display:none;flex-direction:column;gap:2.2cqw}
+.sl.on{display:flex}
+.sl h2{font-size:4.4cqw;line-height:1.5;font-weight:900;letter-spacing:.02em;word-break:keep-all;border-left:1.1cqw solid #2e5d7d;padding-left:1.8cqw}
+.sl rt{font-size:.45em;font-weight:500}
+.foot{margin-top:auto;font-size:2.6cqw;line-height:1.6;font-weight:700;color:#2e5d7d;white-space:pre-line;word-break:keep-all}
+.pg{position:absolute;right:2cqw;bottom:1.4cqw;font-family:"Oswald","Arial Narrow",sans-serif;font-size:1.5cqw;color:#595c58;letter-spacing:.1em}
+/* 表紙 */
+.k-title{justify-content:center;background:#e7eef2}
+.k-title .eb{font-size:2.6cqw;font-weight:700;color:#2e5d7d;letter-spacing:.2em}
+.k-title h1{font-size:8.4cqw;font-weight:900;line-height:1.4;letter-spacing:.02em}
+.k-title .sub{font-size:3.2cqw;line-height:1.7;white-space:pre-line;word-break:keep-all}
+.k-title h1 rt{font-size:.38em}
+/* 11こ */
+.chips{display:flex;flex-direction:column;gap:1cqw}
+.chrow{display:flex;flex-wrap:wrap;gap:1cqw;align-items:center}
+.chrow .gl{width:13cqw;font-size:1.9cqw;font-weight:700;color:#595c58}
+.chip{font-size:2.1cqw;font-weight:700;padding:.35cqw 1.2cqw;border:.25cqw solid #2e5d7d;border-radius:99cqw;background:#fff}
+.chrow.monozukuri .chip{border-color:#9a6b2f}.chrow.tatemono .chip{border-color:#5b6b7a}
+.photos{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2cqw;margin-top:auto}
+.photos figure{position:relative}
+.photos img{width:100%;aspect-ratio:3/1;object-fit:cover;display:block}
+.photos figcaption{font-size:1.5cqw;font-weight:700;margin-top:.4cqw}
+.photos .cr{display:block;font-size:.95cqw;color:#595c58;font-weight:400}
+.photos .cr a{color:#595c58}
+.note{font-size:2.2cqw;font-weight:700;color:#2e5d7d}
+/* バトン */
+.chain{display:flex;align-items:center;justify-content:center;gap:1.5cqw;margin-top:3cqw}
+.chain .p{width:20cqw;height:20cqw;border-radius:50%;background:#e7eef2;border:.4cqw solid #2e5d7d;display:flex;align-items:center;justify-content:center;text-align:center;font-size:2.8cqw;font-weight:900;line-height:1.4}
+.chain .p:last-child{background:#fff;border-style:dashed}
+.chain .ar{display:flex;flex-direction:column;align-items:center;font-size:1.8cqw;font-weight:700;color:#2e5d7d}
+.chain .ar b{font-size:6cqw;line-height:1}
+/* 年表 */
+.tl{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:3cqw;position:relative}
+.tl::before{content:"";position:absolute;left:4%;right:4%;top:2.2cqw;height:.5cqw;background:#cfd3ce}
+.tl .it{position:relative;display:flex;flex-direction:column;align-items:center;gap:1cqw;text-align:center}
+.tl .dot{width:4.4cqw;height:4.4cqw;border-radius:50%;background:#fff;border:.5cqw solid #2e5d7d;position:relative;z-index:1}
+.tl .stop .dot{background:#b5532f;border-color:#b5532f}
+.tl .key .dot{background:#2e5d7d}
+.tl .y{font-family:"Oswald","Arial Narrow",sans-serif;font-size:3.6cqw;color:#2e5d7d}
+.tl .stop .y{color:#b5532f}
+.tl .t{font-size:2.8cqw;font-weight:900;line-height:1.5;word-break:keep-all}
+/* 3つのなかま */
+.three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2cqw;flex:1}
+.three .c{border-top:1.1cqw solid #2e5d7d;background:#f6f8f9;padding:2cqw;display:flex;flex-direction:column;gap:1cqw}
+.three .c:nth-child(2){border-top-color:#9a6b2f}.three .c:nth-child(3){border-top-color:#5b6b7a}
+.three h3{font-size:3.4cqw;font-weight:900}
+.three .n{font-family:"Oswald","Arial Narrow",sans-serif;font-size:2.6cqw;color:#595c58}
+.three .a{font-size:2.5cqw;font-weight:700;line-height:1.6;word-break:keep-all}
+.three .b{margin-top:auto;font-size:2.2cqw;line-height:1.6;color:#b5532f;font-weight:700;word-break:keep-all}
+/* 学習問題って */
+.lead{font-size:2.4cqw;font-weight:700;line-height:1.5;background:#e7eef2;padding:1cqw 2cqw;word-break:keep-all}
+.vs{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2.4cqw;flex:1}
+.vs .c{border:.35cqw solid #cfd3ce;padding:1.4cqw 2cqw;display:flex;flex-direction:column;gap:.6cqw}
+.vs .ok{border-color:#2e5d7d;border-width:.6cqw}
+.vs .lab{font-size:2.2cqw;font-weight:900;color:#595c58}
+.vs .ok .lab{color:#2e5d7d}
+.vs .q{font-size:2.6cqw;font-weight:900;line-height:1.55;word-break:keep-all}
+.vs .r{margin-top:auto;font-size:2.2cqw;color:#595c58;font-weight:700}
+.vs .mk{font-size:3.6cqw;line-height:1;font-weight:900}
+.vs .ng .mk{color:#b5532f}.vs .ok .mk{color:#2e5d7d}
+/* すすめ方 */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2.2cqw;flex:1;align-items:stretch}
+.steps .s{border:.35cqw solid #2e5d7d;padding:1.8cqw 1.3cqw;display:flex;flex-direction:column;gap:1cqw;position:relative}
+.steps .s:not(:last-child)::after{content:"";position:absolute;right:-2.2cqw;top:50%;border:1cqw solid transparent;border-left-color:#2e5d7d;transform:translateY(-50%)}
+.steps .no{font-family:"Oswald","Arial Narrow",sans-serif;font-size:5cqw;line-height:1;color:#2e5d7d}
+.steps .nm{font-size:3.6cqw;font-weight:900}
+.steps .mn{font-size:2.4cqw;font-weight:900;background:#2e5d7d;color:#fff;align-self:flex-start;padding:.2cqw 1cqw}
+.steps .d{font-size:2.1cqw;line-height:1.6;font-weight:700;word-break:keep-all}
+/* めがね */
+.megane{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2cqw;flex:1;align-items:center}
+.megane .m{aspect-ratio:1;border-radius:50%;border:.7cqw solid #2e5d7d;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:.6cqw;padding:2cqw}
+.megane .m b{font-size:4cqw;font-weight:900;line-height:1.3}
+.megane .m span{font-size:2.3cqw;font-weight:700;line-height:1.5;word-break:keep-all}
+/* 付箋 */
+.fz{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:2cqw;align-items:center;flex:1}
+.fz .c{padding:2.4cqw;display:flex;flex-direction:column;gap:1cqw;min-height:22cqw;justify-content:center}
+.fz .c1{border:.4cqw solid #2e5d7d}
+.fz .c2{background:#f7eda8;box-shadow:.4cqw .6cqw 0 rgba(0,0,0,.12);transform:rotate(-1.5deg)}
+.fz .lab{font-size:2.6cqw;font-weight:900;color:#2e5d7d}
+.fz .c2 .lab{color:#8a7a3a}
+.fz .t{font-size:3cqw;font-weight:900;line-height:1.5;word-break:keep-all}
+.fz .ar{font-size:6cqw;color:#2e5d7d;font-weight:900}
+.k-fusen .foot{color:#b5532f;font-size:3.2cqw}
+/* ものさし */
+.ms{list-style:none;display:flex;flex-direction:column;gap:1.6cqw;margin-top:1cqw}
+.ms li{display:flex;align-items:center;gap:2cqw;font-size:3.6cqw;font-weight:900;word-break:keep-all}
+.ms li::before{content:"";flex:0 0 4.4cqw;height:4.4cqw;border:.5cqw solid #2e5d7d;border-radius:.6cqw}
+/* 形 */
+.kt{list-style:none;display:flex;flex-direction:column;gap:1.4cqw}
+.kt li{font-size:3.1cqw;font-weight:900;line-height:1.5;border-left:.8cqw solid #2e5d7d;background:#f6f8f9;padding:1.2cqw 2cqw;word-break:keep-all}
+/* 画像 */
+.k-image{gap:1.2cqw}
+.imgw{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;background:#f4f1ea}
+.imgw img{max-width:100%;max-height:100%;object-fit:contain;display:block}
+.k-image .foot{margin-top:0}
+/* はじめよう */
+.k-vs{gap:1.5cqw}
+.k-start{flex-direction:row;align-items:center;gap:5cqw;background:#e7eef2}
+.k-start .tx{flex:1;display:flex;flex-direction:column;gap:2cqw}
+.k-start h2{border:none;padding:0;font-size:7cqw}
+.k-start .sub{font-size:3.4cqw;font-weight:700;word-break:keep-all}
+.k-start .url{font-size:1.6cqw;color:#595c58;word-break:break-all}
+.k-start .go{align-self:flex-start;font-size:2.8cqw;font-weight:900;background:#2e5d7d;color:#fff;text-decoration:none;padding:1.2cqw 2.6cqw}
+.k-start .qr{width:26cqw;background:#fff;padding:1.4cqw}
+.k-start .qr svg{width:100%;height:auto;display:block}
+/* 操作 */
+.bar{height:56px;width:min(100vw,calc((100vh - 56px) * 16 / 9));display:flex;align-items:center;gap:10px;padding:0 10px;color:#fff;font-size:15px}
+.bar button,.bar a{font:inherit;font-weight:700;color:#fff;background:transparent;border:1px solid #8a959c;padding:8px 14px;cursor:pointer;text-decoration:none;border-radius:3px}
+.bar .sp{flex:1}
+.bar .cnt{font-family:"Oswald","Arial Narrow",sans-serif;letter-spacing:.1em}
+.prog{position:absolute;left:0;top:0;height:.5cqw;background:#2e5d7d;transition:width .2s}
+@media print{html,body{height:auto;background:#fff;overflow:visible;display:block}.bar,.prog{display:none}
+ .stage{width:100%;aspect-ratio:auto;height:auto;overflow:visible}.sl{position:relative;display:flex!important;aspect-ratio:16/9;break-after:page;border:1px solid #ccc}}
+
+/* 表紙（第N時と問い） */
+.k-cover{flex-direction:row;align-items:center;gap:4cqw;background:#e7eef2}
+.k-cover .tx{flex:1;min-width:0;display:flex;flex-direction:column;gap:1.4cqw}
+.k-cover .eb{font-size:2.6cqw;font-weight:700;color:#2e5d7d;letter-spacing:.2em}
+.k-cover .tag{align-self:flex-start;font-size:2.8cqw;font-weight:900;background:#2e5d7d;color:#fff;padding:.4cqw 1.6cqw}
+.k-cover h1{font-size:4.4cqw;font-weight:900;line-height:1.5;letter-spacing:.02em}
+.k-cover h1 rt{font-size:.4em}
+.k-cover .im{flex:0 0 34cqw;display:flex;flex-direction:column;gap:.4cqw}
+.k-cover .im img{width:100%;height:auto;display:block;border-radius:.8cqw}
+.k-cover .cr{font-size:1.1cqw;color:#595c58;text-align:right}
+/* 学習問題（2つに分ける） */
+.mq{border:.6cqw solid #b5532f;padding:1.2cqw 2.2cqw;font-size:3.1cqw;font-weight:900;line-height:1.65;background:#fff}
+.mq .lb{display:block;font-size:1.9cqw;color:#b5532f;letter-spacing:.1em;line-height:1.4}
+.mp{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2.4cqw;flex:1;min-height:0}
+.mp .c{padding:1.6cqw 2.2cqw;display:flex;flex-direction:column;gap:.8cqw;border-radius:.6cqw}
+.mp .c1{background:#dfeaf3;border:.5cqw solid #2e5d7d}
+.mp .c2{background:#f7eda8;border:.5cqw solid #b8a23a}
+.mp .lab{font-size:2.2cqw;font-weight:900;color:#2e5d7d}
+.mp .c2 .lab{color:#6f5f17}
+.mp .t{font-size:3.6cqw;font-weight:900;line-height:1.45}
+.mp .hd{display:flex;align-items:center;gap:1.2cqw}
+.mp .c.off{opacity:.32}
+.mp .now{font-size:2cqw;font-weight:900;background:#b5532f;color:#fff;padding:.2cqw 1.2cqw}
+/* はてな */
+.hq{list-style:none;display:flex;flex-direction:column;gap:1.2cqw;flex:1;min-height:0}
+.hq li{display:flex;gap:1.4cqw;align-items:center;border:.3cqw solid #e89b00;background:#fffaf0;padding:.9cqw 1.6cqw;border-radius:.6cqw}
+.hq .mk{flex:0 0 3.6cqw;height:3.6cqw;border-radius:50%;background:#e89b00;color:#fff;font-weight:900;font-size:2cqw;display:flex;align-items:center;justify-content:center}
+.hq .t{font-size:2.8cqw;font-weight:700;line-height:1.5}
+.hq.one{justify-content:center}
+.hq.one li{padding:2.4cqw 2.6cqw;gap:2.4cqw}
+.hq.one .t{font-size:4.2cqw;font-weight:900;line-height:1.5}
+.hq.one .mk{flex-basis:7cqw;height:7cqw;font-size:4.6cqw}
+/* 学習計画（時の一覧） */
+.pl{list-style:none;display:flex;flex-direction:column;gap:.6cqw}
+.pl li{display:flex;align-items:center;gap:2cqw;font-size:2.5cqw;font-weight:700;line-height:1.45;padding:.35cqw 1.6cqw;border-left:.8cqw solid #cfd3ce;background:#f6f8f9}
+.pl .no{flex:0 0 8cqw;font-weight:900;color:#595c58}
+.pl li.cur{border-left-color:#b5532f;background:#fbeee8;font-weight:900}
+.pl li.cur .no{color:#b5532f}
+.pl .now{margin-left:auto;font-size:2cqw;font-weight:900;background:#b5532f;color:#fff;padding:.1cqw 1.2cqw}
+/* 表の枠 */
+.tbw{flex:1;min-height:0}
+.tb{width:100%;border-collapse:collapse;table-layout:fixed}
+.tb th{font-size:2.2cqw;font-weight:900;background:#2e5d7d;color:#fff;padding:.6cqw 1.2cqw;text-align:left;border:.2cqw solid #2e5d7d;line-height:1.45}
+.tb td{font-size:2.3cqw;font-weight:700;line-height:1.5;padding:.5cqw 1.2cqw;border:.2cqw solid #9aa3a8;height:4.6cqw;vertical-align:middle}
+.tb td.q{color:#9aa3a8;text-align:center;font-weight:900}
+.tb td.h{font-weight:900;background:#f6f8f9}
+.tb tr.ex td{background:#eef4f8}
+.tb.tall td{height:22cqw;vertical-align:top}
+.tb.dense th{padding:.4cqw 1.2cqw}
+.tb.dense td{height:3.5cqw;padding:.15cqw 1.2cqw;font-size:2.1cqw;line-height:1.4}
+/* 数字のカード */
+.nm{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2.4cqw;align-items:stretch;margin-top:1cqw}
+.nm .c{border:.5cqw solid #2e5d7d;padding:2.2cqw 1.6cqw;text-align:center;display:flex;flex-direction:column;gap:1.2cqw;justify-content:center}
+.nm b{font-family:"Oswald","Arial Narrow",sans-serif;font-weight:500;font-size:8.4cqw;line-height:1.1;color:#2e5d7d;display:flex;flex-wrap:wrap;justify-content:center;align-items:baseline}
+.nm b i{font-style:normal;font-family:"Noto Sans JP","Hiragino Sans",sans-serif;font-size:3cqw;font-weight:900;margin-right:.3cqw}
+.nm b small{font-family:"Noto Sans JP","Hiragino Sans",sans-serif;font-size:3cqw;font-weight:900;margin-left:.4cqw}
+.nm span{font-size:2.8cqw;font-weight:900;line-height:1.4}
+.src{font-size:1.5cqw;color:#595c58;font-weight:500}
+.k-nums .foot{font-size:3.2cqw;color:#b5532f}
+/* ことば */
+.kw{display:flex;flex-direction:column;gap:1.6cqw;margin-top:.6cqw}
+.kw .r{display:grid;grid-template-columns:20cqw minmax(0,1fr);gap:2.4cqw;align-items:center;border-bottom:.25cqw dashed #cfd3ce;padding-bottom:1.4cqw}
+.kw dt{font-size:3.8cqw;font-weight:900;color:#2e5d7d}
+.kw dd{font-size:3cqw;font-weight:700;line-height:1.5}
+/* カード */
+.cd{display:grid;gap:1.8cqw;flex:1;min-height:0;align-items:stretch}
+.cd .c{border:.35cqw solid #2e5d7d;display:flex;flex-direction:column;min-height:0;background:#fff}
+.cd .c img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.cd .c .b{padding:1cqw 1.3cqw;display:flex;flex-direction:column;gap:.6cqw;flex:1}
+.cd .nn{font-size:2.5cqw;font-weight:900;line-height:1.4}
+.cd .sb{font-size:1.8cqw;font-weight:700;color:#595c58;line-height:1.45}
+.cd .q{margin-top:auto;font-size:2.1cqw;font-weight:900;color:#b5532f}
+.cd .cr{margin-top:auto;font-size:.95cqw;color:#595c58;line-height:1.4}
+.cd .cr a{color:#595c58}
+.cd.big .c{justify-content:center;text-align:center;background:#f6f8f9;border-width:.5cqw}
+.cd.big .b{justify-content:center;flex:none}
+.cd.big .nn{font-size:3.2cqw;line-height:1.45}
+.cd.big .c .b{padding:.6cqw 1.6cqw}
+.cd.big .sb{font-size:2.2cqw}
+/* 絵と問い */
+.ph1{flex:1;min-height:0;display:flex;gap:3.4cqw;align-items:center}
+.ph1 figure{flex:0 0 50cqw;display:flex;flex-direction:column;gap:.4cqw}
+.ph1 img{width:100%;display:block;border-radius:.6cqw}
+.ph1 .cr{font-size:1.1cqw;color:#595c58}
+.ph1 .q{flex:1;font-size:4.2cqw;font-weight:900;line-height:1.55;color:#2e5d7d}
+/* 2色の付箋 */
+.f2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:3.4cqw;flex:1;min-height:0;align-items:stretch;padding:0 1cqw .6cqw}
+.f2 .c{padding:2.2cqw 2.6cqw;display:flex;flex-direction:column;gap:1.2cqw;box-shadow:.4cqw .6cqw 0 rgba(0,0,0,.12)}
+.f2 .c1{background:#cfe0ee;transform:rotate(-1deg)}
+.f2 .c2{background:#f7eda8;transform:rotate(1deg)}
+.f2 .lab{font-size:2.6cqw;font-weight:900;color:#2e5d7d}
+.f2 .c2 .lab{color:#6f5f17}
+.f2 .t{font-size:3.1cqw;font-weight:900;line-height:1.65}
+/* 前の時間に分かったこと */
+.fr{display:flex;flex-direction:column;gap:1.4cqw;flex:1;justify-content:center}
+.fr .r{display:flex;gap:2.2cqw;align-items:center;background:#f6f8f9;border-left:.8cqw solid #2e5d7d;padding:1.2cqw 2cqw}
+.fr .tg{flex:0 0 auto;font-size:2.2cqw;font-weight:900;color:#fff;background:#2e5d7d;padding:.2cqw 1.2cqw;white-space:nowrap}
+.fr .t{font-size:3.1cqw;font-weight:900;line-height:1.5}
+/* すすめ方 5こ */
+.steps.five{gap:1.8cqw}
+.steps.five .s:not(:last-child)::after{right:-1.8cqw;border-width:.8cqw}
+.steps.five .no{font-size:4.2cqw}
+.steps.five .nm{font-size:2.7cqw;line-height:1.35}
+.steps.five .mn{font-size:2.1cqw}
+.steps.five .d{font-size:2cqw}
+/* 予想から 調べることへ */
+.tk{display:flex;flex-direction:column;gap:1.8cqw;flex:1;min-height:0;justify-content:center}
+.tk .th,.tk .tr{display:grid;grid-template-columns:minmax(0,1fr) 6cqw minmax(0,1fr);gap:1.4cqw;align-items:stretch}
+.tk .th span{font-size:2.3cqw;font-weight:900;color:#595c58}
+.tk .y,.tk .s{position:relative;padding:1.3cqw 2.2cqw;display:flex;align-items:center;min-height:8.6cqw}
+.tk .y-b{background:#cfe0ee;box-shadow:.4cqw .6cqw 0 rgba(0,0,0,.12)}
+.tk .y-w{background:#fff;border:.35cqw dashed #9aa3a8}
+.tk .s{background:#fff;border:.4cqw solid #2e5d7d}
+.tk .s.q{justify-content:center;border-style:dashed;border-color:#9aa3a8}
+.tk .y p,.tk .s p{font-size:2.8cqw;font-weight:900;line-height:1.5}
+.tk .s.q p{font-size:4.4cqw;color:#9aa3a8}
+.tk .y-w p{color:#595c58}
+.tk .ar{display:flex;align-items:center;justify-content:center;font-size:5cqw;font-weight:900;color:#2e5d7d}
+.tk .ex{position:absolute;top:-1.5cqw;left:1.2cqw;font-size:1.9cqw;font-weight:900;background:#b5532f;color:#fff;padding:.1cqw 1.1cqw;line-height:1.5}
+/* 人のチップ */
+.c2w{display:flex;flex-wrap:wrap;gap:1.6cqw;align-content:center;justify-content:center;flex:1}
+.c2w .chip{font-size:3.4cqw;padding:.6cqw 2.4cqw}
+.c2w .chip.me{border-style:dashed;border-color:#b5532f;color:#b5532f;background:#fbeee8}
+</style></head><body><main class="stage"><div class="prog"></div><section class="sl k-cover" aria-label="1まいめ"><div class="tx"><p class="eb">きょうの社会 第7時</p><span class="tag">祭りを<ruby>支<rt>ささ</rt></ruby>える人とくふう</span><h1>祭りや行事は<br>だれに どのように<br><ruby>支<rt>ささ</rt></ruby>えられて いるのだろう</h1></div><div class="im"><img src="assets/img/riko_mondai_matsuri_naze.jpg" alt=""><span class="cr">絵 School Stock</span></div><span class="pg">01</span></section><section class="sl k-furikaeri" aria-label="2まいめ"><h2>前の時間に 分かったこと</h2><div class="fr"><div class="r"><span class="tg">かつぐ人</span><p class="t"><ruby>約<rt>やく</rt></ruby>600人が<br><ruby>約<rt>やく</rt></ruby>100メートルごとに 交代して かつぐ</p></div><div class="r"><span class="tg"><ruby>参加<rt>さんか</rt></ruby>する人</span><p class="t">高校生 会社の人 大学生 外国の人も<br>いっしょに <ruby>参加<rt>さんか</rt></ruby>している</p></div><div class="r"><span class="tg">思い</span><p class="t">みんなの 聞き取りから<br><ruby>参加<rt>さんか</rt></ruby>する人の 思いを 考えた</p></div></div><span class="pg">02</span></section><section class="sl k-mondai" aria-label="3まいめ"><p class="mq"><span class="lb">学習問題</span><ruby>飯塚山笠<rt>いいづかやまかさ</rt></ruby>や <ruby>博多祇園山笠<rt>はかたぎおんやまかさ</rt></ruby>など 祭りや行事は 何のために つくって なぜ みんな <ruby>参加<rt>さんか</rt></ruby>するのだろう</p><div class="mp"><div class="c c1"><span class="hd"><span class="lab">何のために</span></span><p class="t">何のために<br>つくったのだろう</p></div><div class="c c2"><span class="hd"><span class="lab">なぜ<ruby>参加<rt>さんか</rt></ruby></span></span><p class="t">なぜ みんな<br><ruby>参加<rt>さんか</rt></ruby>するのだろう</p></div></div><p class="foot">きょうは 祭りを <ruby>支<rt>ささ</rt></ruby>える人と くふうを 調べる</p><span class="pg">03</span></section><section class="sl k-photo" aria-label="4まいめ"><h2><ruby>山笠<rt>やまかさ</rt></ruby>に <ruby>参加<rt>さんか</rt></ruby>しているのは</h2><div class="ph1"><figure><img src="assets/img/riko_iizuka_yamakasa.jpg" alt="飯塚山笠の絵"><span class="cr">絵：School Stock</span></figure><p class="q">かつぐ人 だけ？<br>ほかに だれが いるだろう</p></div><span class="pg">04</span></section><section class="sl k-table" aria-label="5まいめ"><h2><ruby>支<rt>ささ</rt></ruby>える人の 表</h2><div class="tbw"><table class="tb"><col style="width:30%"><col style="width:70%"><tr><th>だれが</th><th>どのように <ruby>支<rt>ささ</rt></ruby>えている？</th></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></table></div><p class="foot"><ruby>資料<rt>しりょう</rt></ruby>から 見つけて 書こう</p><span class="pg">05</span></section><section class="sl k-steps" aria-label="6まいめ"><h2>きょうの すすめ方</h2><div class="steps"><div class="s"><span class="no">1</span><span class="nm">つかむ</span><span class="mn">5分</span><p class="d">かつぐ人の ほかに だれが いるか 予想する</p></div><div class="s"><span class="no">2</span><span class="nm">調べる</span><span class="mn">18分</span><p class="d"><ruby>資料<rt>しりょう</rt></ruby>から <ruby>支<rt>ささ</rt></ruby>える人と 役わりを 見つけて 表にする</p></div><div class="s"><span class="no">3</span><span class="nm">考える</span><span class="mn">15分</span><p class="d"><ruby>追<rt>お</rt></ruby>い<ruby>山<rt>やま</rt></ruby>を 日曜日にした わけを 考える</p></div><div class="s"><span class="no">4</span><span class="nm">まとめる</span><span class="mn">7分</span><p class="d">まとめと ふり返りを 書く</p></div></div><span class="pg">06</span></section><section class="sl k-start" aria-label="7まいめ"><div class="tx"><h2>さあ はじめよう</h2><p class="sub">まず 予想を 出し合おう</p><a class="go" href="h07.html">第7時のページへ →</a><p class="url">https://a-tozak.github.io/uketsugi-iizuka/h07.html</p></div><div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" class="segno"><path class="qrline" stroke="#161816" d="M0 0.5h7m1 0h1m5 0h1m1 0h1m1 0h4m1 0h1m2 0h7m-33 1h1m5 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h2m3 0h3m2 0h1m5 0h1m-33 1h1m1 0h3m1 0h1m2 0h2m2 0h2m3 0h3m2 0h1m2 0h1m1 0h3m1 0h1m-33 1h1m1 0h3m1 0h1m1 0h2m1 0h1m3 0h1m2 0h1m4 0h1m2 0h1m1 0h3m1 0h1m-33 1h1m1 0h3m1 0h1m5 0h1m3 0h3m7 0h1m1 0h3m1 0h1m-33 1h1m5 0h1m6 0h5m4 0h1m3 0h1m5 0h1m-33 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-25 1h1m5 0h4m1 0h1m2 0h2m-24 1h1m1 0h2m1 0h3m3 0h1m2 0h4m2 0h2m2 0h1m1 0h1m2 0h1m1 0h2m-32 1h1m6 0h1m1 0h1m1 0h3m1 0h5m2 0h1m2 0h2m1 0h2m1 0h1m-33 1h1m1 0h1m2 0h2m3 0h1m1 0h2m2 0h1m1 0h1m1 0h10m1 0h2m-32 1h5m3 0h2m4 0h3m1 0h1m2 0h3m2 0h1m1 0h1m2 0h1m-32 1h2m2 0h6m1 0h1m1 0h1m1 0h1m2 0h1m2 0h2m1 0h1m2 0h2m1 0h1m-31 1h1m2 0h2m1 0h1m1 0h6m5 0h2m5 0h1m1 0h3m-32 1h5m1 0h1m1 0h1m2 0h1m5 0h3m1 0h2m3 0h1m2 0h1m-30 1h5m2 0h1m2 0h2m2 0h2m2 0h1m2 0h2m1 0h5m1 0h1m-31 1h1m1 0h2m2 0h2m1 0h3m1 0h2m3 0h1m1 0h2m3 0h2m1 0h3m-30 1h1m1 0h1m1 0h1m1 0h4m1 0h4m4 0h7m1 0h2m1 0h2m-33 1h2m4 0h3m2 0h2m2 0h2m1 0h1m2 0h1m2 0h1m1 0h3m1 0h2m-32 1h1m3 0h2m1 0h2m1 0h1m3 0h1m1 0h3m4 0h3m2 0h1m2 0h2m-30 1h1m2 0h1m1 0h2m1 0h1m2 0h1m1 0h1m2 0h1m1 0h1m5 0h1m1 0h2m-31 1h1m2 0h3m4 0h1m4 0h3m4 0h2m2 0h1m2 0h1m2 0h1m-31 1h1m2 0h3m1 0h1m3 0h1m1 0h1m1 0h1m2 0h5m1 0h2m3 0h2m-32 1h4m2 0h2m1 0h1m1 0h2m1 0h1m2 0h3m1 0h3m4 0h1m1 0h2m-33 1h1m1 0h1m2 0h2m1 0h1m2 0h4m1 0h2m1 0h2m1 0h7m-21 1h2m2 0h5m2 0h1m4 0h1m3 0h2m1 0h1m-32 1h7m1 0h1m2 0h4m2 0h4m2 0h2m1 0h1m1 0h1m-29 1h1m5 0h1m1 0h2m2 0h1m1 0h1m1 0h3m2 0h1m1 0h2m3 0h5m-33 1h1m1 0h3m1 0h1m2 0h2m4 0h14m1 0h1m1 0h1m-33 1h1m1 0h3m1 0h1m1 0h1m2 0h1m2 0h1m1 0h2m2 0h1m1 0h2m1 0h1m1 0h1m2 0h1m1 0h1m-33 1h1m1 0h3m1 0h1m1 0h2m1 0h2m2 0h3m2 0h1m1 0h2m2 0h2m1 0h2m-31 1h1m5 0h1m2 0h4m4 0h2m3 0h3m1 0h3m3 0h1m-33 1h7m1 0h2m1 0h2m1 0h1m1 0h2m3 0h1m6 0h1m1 0h1"/></svg>
+</div><span class="pg">07</span></section></main><nav class="bar"><button id="prev" type="button">← もどる</button><button id="next" type="button">すすむ →</button><span class="cnt"></span><span class="sp"></span><button id="fs" type="button">全画面</button><a href="slides_h06.html">← 第6時</a><a href="slides_h08.html">第8時 →</a><a href="h07.html">第7時のページ</a><a href="index.html">ホーム</a></nav><script>
+(function(){var s=[].slice.call(document.querySelectorAll('.sl')),i=0,c=document.querySelector('.cnt'),p=document.querySelector('.prog');
+function go(n){i=Math.max(0,Math.min(s.length-1,n));s.forEach(function(e,k){e.classList.toggle('on',k===i)});c.textContent=(i+1)+' / '+s.length;p.style.width=((i+1)/s.length*100)+'%';history.replaceState(null,'','#'+(i+1))}
+var h=parseInt(location.hash.slice(1),10);go(h?h-1:0);window.goSlide=function(n){go(n-1)};
+window.addEventListener('hashchange',function(){var n=parseInt(location.hash.slice(1),10);if(n&&n-1!==i)go(n-1)});
+document.addEventListener('keydown',function(e){if(['ArrowRight','PageDown',' ','Enter'].indexOf(e.key)>=0){e.preventDefault();go(i+1)}else if(['ArrowLeft','PageUp','Backspace'].indexOf(e.key)>=0){e.preventDefault();go(i-1)}else if(e.key==='Home')go(0);else if(e.key==='End')go(s.length-1)});
+document.querySelector('.stage').addEventListener('click',function(e){if(e.target.closest('a'))return;var r=this.getBoundingClientRect();go(e.clientX-r.left<r.width/3?i-1:i+1)});
+document.getElementById('prev').onclick=function(){go(i-1)};document.getElementById('next').onclick=function(){go(i+1)};
+document.getElementById('fs').onclick=function(){var d=document.documentElement;if(!document.fullscreenElement){(d.requestFullscreen||d.webkitRequestFullscreen).call(d)}else{document.exitFullscreen()}};
+})();
+</script></body></html>
