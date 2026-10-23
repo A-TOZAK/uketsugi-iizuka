@@ -10,6 +10,7 @@ var saved=null;try{saved=sessionStorage.getItem(SK);}catch(e){}
 if(saved){derive(saved).then(show).catch(function(){try{sessionStorage.removeItem(SK);}catch(e){}});}
 document.getElementById("f").addEventListener("submit",function(ev){ev.preventDefault();var pw=document.getElementById("pw").value;
  document.getElementById("err").textContent="ひらいています…";
- derive(pw).then(function(k){return show(k).then(function(){try{sessionStorage.setItem(SK,pw);}catch(e){}});})
+ derive(pw).then(function(k){return crypto.subtle.decrypt({name:"AES-GCM",iv:b(enc.iv)},k,b(enc.ct)).then(function(){
+   try{sessionStorage.setItem(SK,pw);}catch(e){} return show(k);});})
  .catch(function(){document.getElementById("err").textContent="パスワードがちがいます";});});
 })();
